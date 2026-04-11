@@ -1,0 +1,416 @@
+id,domain,level,project_type,scaling_priority,budget,recommended_stack
+1,Web Dev,Beginner,Portfolio Website,Low,0,HTML CSS Tailwind Vercel
+2,Web Dev,Beginner,Blog Website,Low,0,HTML CSS Bootstrap Netlify
+3,Web Dev,Beginner,Landing Page,Low,0,HTML CSS JS Vercel
+4,Web Dev,Beginner,Resume Site,Low,0,HTML Tailwind GitHub Pages
+5,Web Dev,Beginner,Static Business Site,Low,0,HTML CSS JS Netlify
+
+6,Web Dev,Intermediate,E-commerce Store,Medium,Low,MERN Stack Stripe
+7,Web Dev,Intermediate,Dashboard App,Medium,Low,React Node MongoDB
+8,Web Dev,Intermediate,Booking System,Medium,Medium,Next.js Firebase
+9,Web Dev,Intermediate,Admin Panel,Medium,Low,React Express MySQL
+10,Web Dev,Intermediate,Job Portal,Medium,Medium,React Node PostgreSQL
+
+11,Web Dev,Advanced,Real-time SaaS,High,High,Next.js Go PostgreSQL Redis Docker
+12,Web Dev,Advanced,Streaming Platform,High,High,React Node Kafka AWS
+13,Web Dev,Advanced,Multi-tenant SaaS,High,High,Next.js Kubernetes PostgreSQL
+14,Web Dev,Advanced,Fintech App,Very High,High,React Node SpringBoot PostgreSQL
+15,Web Dev,Advanced,Scalable API,High,High,FastAPI Docker Kubernetes Redis
+
+16,AIML,Beginner,Sentiment Analysis,Low,0,Python Scikit-learn Flask
+17,AIML,Beginner,Spam Classifier,Low,0,Python Naive Bayes Streamlit
+18,AIML,Beginner,Recommendation System,Low,0,Python Pandas Sklearn
+19,AIML,Beginner,Image Classifier,Low,0,Python TensorFlow Keras
+20,AIML,Beginner,Chatbot Basic,Low,0,Python NLTK Flask
+
+21,AIML,Intermediate,Movie Recommender,Medium,Low,Python Pandas Surprise
+22,AIML,Intermediate,NLP Chatbot,Medium,Medium,Rasa FastAPI
+23,AIML,Intermediate,Object Detection,Medium,Medium,OpenCV TensorFlow
+24,AIML,Intermediate,Forecasting Model,Medium,Medium,Prophet Pandas
+25,AIML,Intermediate,Voice Assistant,Medium,Medium,Python SpeechRecognition
+
+26,AIML,Advanced,Generative AI Chatbot,High,High,PyTorch LangChain Pinecone FastAPI AWS
+27,AIML,Advanced,LLM App,High,High,OpenAI API LangChain Redis
+28,AIML,Advanced,Autonomous Agent,High,High,LangGraph Vector DB Docker
+29,AIML,Advanced,AI SaaS Platform,Very High,High,FastAPI Kubernetes GPU AWS
+30,AIML,Advanced,Multimodal AI,High,High,PyTorch Transformers CUDA
+
+31,Data Analyst,Beginner,Sales Dashboard,Low,0,SQL Pandas PowerBI
+32,Data Analyst,Beginner,Marketing Dashboard,Low,0,Excel Tableau
+33,Data Analyst,Beginner,HR Analytics,Low,0,Excel Python Pandas
+34,Data Analyst,Beginner,Finance Dashboard,Low,0,PowerBI SQL
+35,Data Analyst,Beginner,Survey Analysis,Low,0,Google Sheets Python
+
+36,Data Analyst,Intermediate,Business Dashboard,Medium,Medium,SQL Tableau Python
+37,Data Analyst,Intermediate,KPI Tracker,Medium,Medium,PowerBI DAX SQL
+38,Data Analyst,Intermediate,Customer Segmentation,Medium,Medium,Python Pandas Sklearn
+39,Data Analyst,Intermediate,Revenue Forecasting,Medium,Medium,Python Statsmodels
+40,Data Analyst,Intermediate,A/B Testing,Medium,Medium,Python SciPy
+
+41,Data Engineer,Intermediate,ETL Pipeline,Medium,Medium,Airflow dbt Snowflake Python
+42,Data Engineer,Intermediate,Data Pipeline,Medium,Medium,Spark Kafka Python
+43,Data Engineer,Intermediate,Log Processing,Medium,Medium,ElasticSearch Logstash
+44,Data Engineer,Intermediate,Streaming Pipeline,Medium,Medium,Kafka Spark
+45,Data Engineer,Intermediate,Warehouse Setup,Medium,Medium,Snowflake dbt
+
+46,Data Scientist,Advanced,Fraud Detection,Very High,High,Spark MLlib Kafka Cassandra Kubernetes
+47,Data Scientist,Advanced,Churn Prediction,High,High,Python XGBoost AWS
+48,Data Scientist,Advanced,Recommendation Engine,High,High,Python Deep Learning Redis
+49,Data Scientist,Advanced,Time Series Forecast,High,High,Prophet LSTM AWS
+50,Data Scientist,Advanced,Anomaly Detection,High,High,Isolation Forest Spark
+
+51,Mobile Dev,Intermediate,Social Media App,High,Medium,React Native Supabase
+52,Mobile Dev,Intermediate,Chat App,High,Medium,Flutter Firebase
+53,Mobile Dev,Intermediate,Delivery App,High,Medium,React Native Node MongoDB
+54,Mobile Dev,Intermediate,Fitness App,Medium,Medium,Flutter Firebase
+55,Mobile Dev,Intermediate,Finance App,High,Medium,React Native PostgreSQL
+
+56,App Dev,Beginner,Utility App,Low,0,Flutter Firebase Auth
+57,App Dev,Beginner,Notes App,Low,0,Flutter SQLite
+58,App Dev,Beginner,ToDo App,Low,0,React Native AsyncStorage
+59,App Dev,Beginner,Calculator App,Low,0,Flutter Dart
+60,App Dev,Beginner,Weather App,Low,0,React Native API
+61,Web Dev,Beginner,Personal Blog,Low,0,HTML CSS Netlify
+62,Web Dev,Beginner,Photography Site,Low,0,HTML Tailwind Vercel
+63,Web Dev,Beginner,Startup Landing Page,Low,0,HTML CSS JS
+64,Web Dev,Beginner,Event Page,Low,0,HTML Bootstrap
+65,Web Dev,Beginner,Documentation Site,Low,0,Docusaurus GitHub Pages
+
+66,Web Dev,Intermediate,E-learning Platform,Medium,Medium,React Node MongoDB
+67,Web Dev,Intermediate,Portfolio with CMS,Medium,Low,Next.js Sanity
+68,Web Dev,Intermediate,Chat Application,Medium,Medium,React Firebase
+69,Web Dev,Intermediate,Forum Website,Medium,Medium,Node Express MongoDB
+70,Web Dev,Intermediate,Subscription App,Medium,Medium,Next.js Stripe
+
+71,Web Dev,Advanced,AI SaaS Dashboard,High,High,Next.js FastAPI PostgreSQL
+72,Web Dev,Advanced,Realtime Collaboration Tool,High,High,React WebSockets Node
+73,Web Dev,Advanced,Video Conferencing App,High,High,WebRTC Node Redis
+74,Web Dev,Advanced,Large Scale Marketplace,Very High,High,Microservices Kubernetes AWS
+75,Web Dev,Advanced,Cloud IDE,Very High,High,Docker Kubernetes React
+
+76,AIML,Beginner,Text Classification,Low,0,Python Sklearn
+77,AIML,Beginner,Digit Recognition,Low,0,TensorFlow Keras
+78,AIML,Beginner,Movie Classifier,Low,0,Pandas Sklearn
+79,AIML,Beginner,Basic NLP Tool,Low,0,NLTK Python
+80,AIML,Beginner,Simple Recommender,Low,0,Python Pandas
+
+81,AIML,Intermediate,Resume Parser,Medium,Medium,Spacy Python
+82,AIML,Intermediate,Stock Predictor,Medium,Medium,LSTM TensorFlow
+83,AIML,Intermediate,Face Detection,Medium,Medium,OpenCV
+84,AIML,Intermediate,Chatbot API,Medium,Medium,FastAPI Rasa
+85,AIML,Intermediate,Document Summarizer,Medium,Medium,HuggingFace Transformers
+
+86,AIML,Advanced,LLM SaaS Tool,High,High,LangChain OpenAI AWS
+87,AIML,Advanced,AI Code Generator,High,High,Transformers PyTorch
+88,AIML,Advanced,Voice AI Assistant,High,High,Whisper API Python
+89,AIML,Advanced,AI Search Engine,Very High,High,Vector DB Pinecone
+90,AIML,Advanced,Autonomous AI Agent,Very High,High,LangGraph Docker
+
+91,Data Analyst,Beginner,Inventory Dashboard,Low,0,Excel PowerBI
+92,Data Analyst,Beginner,Website Analytics,Low,0,Google Analytics
+93,Data Analyst,Beginner,Customer Data Analysis,Low,0,Pandas Excel
+94,Data Analyst,Beginner,Expense Tracker,Low,0,Excel
+95,Data Analyst,Beginner,Sales Trends,Low,0,Tableau
+
+96,Data Analyst,Intermediate,Marketing Insights,Medium,Medium,SQL Tableau Python
+97,Data Analyst,Intermediate,User Behavior Analysis,Medium,Medium,Python Pandas
+98,Data Analyst,Intermediate,Revenue Dashboard,Medium,Medium,PowerBI SQL
+99,Data Analyst,Intermediate,Product Analytics,Medium,Medium,Python SQL
+100,Data Analyst,Intermediate,Data Cleaning Pipeline,Medium,Medium,Python Pandas
+101,Data Engineer,Beginner,Simple ETL Script,Low,0,Python Pandas CSV
+102,Data Engineer,Beginner,Data Cleaning Tool,Low,0,Python Pandas
+103,Data Engineer,Beginner,CSV Pipeline,Low,0,Python Scripts
+104,Data Engineer,Beginner,Log Parser,Low,0,Python Regex
+105,Data Engineer,Beginner,Basic Data Pipeline,Low,0,Python SQLite
+
+106,Data Engineer,Intermediate,ETL Automation,Medium,Medium,Airflow Python PostgreSQL
+107,Data Engineer,Intermediate,Data Warehouse Pipeline,Medium,Medium,dbt Snowflake
+108,Data Engineer,Intermediate,Streaming Data Pipeline,Medium,Medium,Kafka Spark
+109,Data Engineer,Intermediate,Data Integration Tool,Medium,Medium,Talend SQL
+110,Data Engineer,Intermediate,Batch Processing System,Medium,Medium,Spark Hadoop
+
+111,Data Engineer,Advanced,Real-time Data Platform,High,High,Kafka Spark Kubernetes
+112,Data Engineer,Advanced,Scalable Data Lake,High,High,AWS S3 Glue Athena
+113,Data Engineer,Advanced,Distributed Data System,High,High,Hadoop Hive Spark
+114,Data Engineer,Advanced,Data Mesh Architecture,Very High,High,Kubernetes Snowflake
+115,Data Engineer,Advanced,Streaming Analytics System,Very High,High,Flink Kafka AWS
+
+116,Data Scientist,Beginner,Simple Regression Model,Low,0,Python Sklearn
+117,Data Scientist,Beginner,Classification Model,Low,0,Python Pandas Sklearn
+118,Data Scientist,Beginner,Data Visualization,Low,0,Matplotlib Seaborn
+119,Data Scientist,Beginner,Basic Prediction Model,Low,0,Python Scikit-learn
+120,Data Scientist,Beginner,Clustering Project,Low,0,KMeans Sklearn
+
+121,Data Scientist,Intermediate,Customer Segmentation,Medium,Medium,Python KMeans Pandas
+122,Data Scientist,Intermediate,Recommendation System,Medium,Medium,Python Surprise
+123,Data Scientist,Intermediate,Time Series Analysis,Medium,Medium,Prophet Python
+124,Data Scientist,Intermediate,Text Analytics,Medium,Medium,NLP Spacy
+125,Data Scientist,Intermediate,Image Classification,Medium,Medium,CNN TensorFlow
+
+126,Data Scientist,Advanced,Deep Learning Model,High,High,PyTorch CUDA
+127,Data Scientist,Advanced,Fraud Detection System,High,High,XGBoost Spark
+128,Data Scientist,Advanced,Churn Prediction System,High,High,Python LightGBM AWS
+129,Data Scientist,Advanced,AI Recommendation Engine,Very High,High,Deep Learning Redis
+130,Data Scientist,Advanced,Anomaly Detection System,Very High,High,IsolationForest Spark
+
+131,Mobile Dev,Beginner,Simple Calculator App,Low,0,Flutter Dart
+132,Mobile Dev,Beginner,Notes App,Low,0,Flutter SQLite
+133,Mobile Dev,Beginner,Weather App,Low,0,React Native API
+134,Mobile Dev,Beginner,ToDo App,Low,0,Flutter Firebase
+135,Mobile Dev,Beginner,Quiz App,Low,0,React Native
+
+136,Mobile Dev,Intermediate,Chat Application,Medium,Medium,Flutter Firebase
+137,Mobile Dev,Intermediate,Food Delivery App,High,Medium,React Native Node MongoDB
+138,Mobile Dev,Intermediate,Booking App,Medium,Medium,Flutter Supabase
+139,Mobile Dev,Intermediate,Fitness Tracker,Medium,Medium,React Native Firebase
+140,Mobile Dev,Intermediate,E-commerce App,High,Medium,Flutter Node API
+
+141,Mobile Dev,Advanced,Real-time Messaging App,High,High,Flutter WebSockets Firebase
+142,Mobile Dev,Advanced,Streaming App,High,High,React Native AWS
+143,Mobile Dev,Advanced,Fintech Mobile App,Very High,High,Flutter PostgreSQL AWS
+144,Mobile Dev,Advanced,AI Mobile App,High,High,TensorFlow Lite Flutter
+145,Mobile Dev,Advanced,Scalable Social App,Very High,High,React Native Kubernetes
+
+146,App Dev,Intermediate,Desktop Notes App,Medium,Low,Electron React
+147,App Dev,Intermediate,File Manager Tool,Medium,Low,Electron Node
+148,App Dev,Intermediate,Code Editor,Medium,Medium,Electron Monaco Editor
+149,App Dev,Intermediate,Chat Desktop App,Medium,Medium,Electron Firebase
+150,App Dev,Intermediate,Productivity Tool,Medium,Medium,Electron React Node
+151,App Dev,Advanced,Cross-platform Desktop App,High,High,Electron React Node Docker
+152,App Dev,Advanced,IDE Tool,Very High,High,Electron Monaco Node
+153,App Dev,Advanced,Design Tool,High,High,Electron Canvas WebGL
+154,App Dev,Advanced,Video Editing Tool,Very High,High,C++ Qt FFmpeg
+155,App Dev,Advanced,Music Production App,Very High,High,C++ JUCE
+
+156,Web Dev,Beginner,Simple Contact Form,Low,0,HTML CSS JS Formspree
+157,Web Dev,Beginner,FAQ Page,Low,0,HTML CSS
+158,Web Dev,Beginner,Landing Page Animation,Low,0,HTML CSS JS GSAP
+159,Web Dev,Beginner,Product Showcase,Low,0,HTML Tailwind
+160,Web Dev,Beginner,Static Portfolio,Low,0,HTML CSS GitHub Pages
+
+161,Web Dev,Intermediate,CRM Dashboard,Medium,Medium,React Node MySQL
+162,Web Dev,Intermediate,Blog CMS,Medium,Medium,Next.js MongoDB
+163,Web Dev,Intermediate,Chat Dashboard,Medium,Medium,React Firebase
+164,Web Dev,Intermediate,Ticket System,Medium,Medium,Node Express PostgreSQL
+165,Web Dev,Intermediate,Analytics Dashboard,Medium,Medium,React D3.js
+
+166,Web Dev,Advanced,Realtime Analytics Platform,High,High,React Kafka Node Redis
+167,Web Dev,Advanced,Cloud Storage System,Very High,High,AWS S3 Node React
+168,Web Dev,Advanced,Distributed SaaS,Very High,High,Microservices Kubernetes
+169,Web Dev,Advanced,Search Engine,Very High,High,ElasticSearch Node React
+170,Web Dev,Advanced,AI Web Platform,High,High,Next.js FastAPI GPU
+
+171,AIML,Beginner,Linear Regression,Low,0,Python Sklearn
+172,AIML,Beginner,Decision Tree Model,Low,0,Python Sklearn
+173,AIML,Beginner,Image Filter App,Low,0,OpenCV Python
+174,AIML,Beginner,Text Generator,Low,0,Markov Chain Python
+175,AIML,Beginner,Basic Chatbot UI,Low,0,Streamlit Python
+
+176,AIML,Intermediate,News Classifier,Medium,Medium,Sklearn NLP
+177,AIML,Intermediate,Image Segmentation,Medium,Medium,OpenCV TensorFlow
+178,AIML,Intermediate,Speech to Text,Medium,Medium,Python Whisper
+179,AIML,Intermediate,AI Resume Ranker,Medium,Medium,NLP Python
+180,AIML,Intermediate,Recommendation API,Medium,Medium,FastAPI ML
+
+181,AIML,Advanced,Multilingual LLM App,High,High,Transformers HuggingFace
+182,AIML,Advanced,AI Video Generator,Very High,High,Diffusion Models GPU
+183,AIML,Advanced,AI Tutor System,High,High,LangChain OpenAI
+184,AIML,Advanced,AI Code Reviewer,High,High,LLM API FastAPI
+185,AIML,Advanced,Autonomous Trading Bot,Very High,High,RL Python AWS
+
+186,Data Analyst,Beginner,Simple KPI Sheet,Low,0,Excel
+187,Data Analyst,Beginner,Customer Report,Low,0,Excel Charts
+188,Data Analyst,Beginner,Website Metrics,Low,0,Google Analytics
+189,Data Analyst,Beginner,Sales Summary,Low,0,Excel Pivot
+190,Data Analyst,Beginner,Survey Dashboard,Low,0,Google Sheets
+
+191,Data Analyst,Intermediate,Sales Forecast Dashboard,Medium,Medium,PowerBI Python
+192,Data Analyst,Intermediate,User Funnel Analysis,Medium,Medium,SQL Python
+193,Data Analyst,Intermediate,Marketing ROI Tool,Medium,Medium,Tableau SQL
+194,Data Analyst,Intermediate,Product Metrics Tool,Medium,Medium,Python Pandas
+195,Data Analyst,Intermediate,Customer Insights Tool,Medium,Medium,SQL Tableau
+
+196,Data Engineer,Beginner,JSON Parser,Low,0,Python
+197,Data Engineer,Beginner,API Data Fetcher,Low,0,Python Requests
+198,Data Engineer,Beginner,CSV Merger,Low,0,Python Pandas
+199,Data Engineer,Beginner,Simple Data Loader,Low,0,Python SQLite
+200,Data Engineer,Beginner,File Cleaner Tool,Low,0,Python
+
+201,Data Engineer,Intermediate,Data Sync Tool,Medium,Medium,Airflow Python
+202,Data Engineer,Intermediate,Cloud ETL,Medium,Medium,AWS Glue
+203,Data Engineer,Intermediate,Streaming Logs,Medium,Medium,Kafka
+204,Data Engineer,Intermediate,Warehouse Sync,Medium,Medium,dbt Snowflake
+205,Data Engineer,Intermediate,Pipeline Monitor,Medium,Medium,Airflow UI
+
+206,Data Engineer,Advanced,Real-time Fraud Pipeline,High,High,Kafka Spark AWS
+207,Data Engineer,Advanced,Distributed ETL System,Very High,High,Spark Hadoop
+208,Data Engineer,Advanced,Event-driven Architecture,High,High,Kafka Microservices
+209,Data Engineer,Advanced,Petabyte Data Pipeline,Very High,High,AWS EMR S3
+210,Data Engineer,Advanced,Streaming ML Pipeline,Very High,High,Flink Kafka
+
+211,Data Scientist,Beginner,Data Cleaning Project,Low,0,Python Pandas
+212,Data Scientist,Beginner,Visualization Dashboard,Low,0,Matplotlib
+213,Data Scientist,Beginner,Simple Classifier,Low,0,Sklearn
+214,Data Scientist,Beginner,Clustering Model,Low,0,KMeans
+215,Data Scientist,Beginner,EDA Project,Low,0,Pandas Seaborn
+
+216,Data Scientist,Intermediate,Recommendation Model,Medium,Medium,Python Surprise
+217,Data Scientist,Intermediate,Forecasting Model,Medium,Medium,Prophet
+218,Data Scientist,Intermediate,Text Classification,Medium,Medium,NLP Python
+219,Data Scientist,Intermediate,Image Classifier,Medium,Medium,CNN TensorFlow
+220,Data Scientist,Intermediate,Churn Model,Medium,Medium,XGBoost
+
+221,Data Scientist,Advanced,Deep Learning Pipeline,High,High,PyTorch CUDA
+222,Data Scientist,Advanced,AI Fraud System,Very High,High,Spark MLlib
+223,Data Scientist,Advanced,Recommendation Engine,High,High,Deep Learning Redis
+224,Data Scientist,Advanced,Time Series System,High,High,LSTM AWS
+225,Data Scientist,Advanced,AI Decision System,Very High,High,RL Models
+
+226,Mobile Dev,Beginner,Flashcard App,Low,0,Flutter
+227,Mobile Dev,Beginner,Timer App,Low,0,Flutter Dart
+228,Mobile Dev,Beginner,Reminder App,Low,0,React Native
+229,Mobile Dev,Beginner,Simple Game,Low,0,Unity
+230,Mobile Dev,Beginner,Notes Sync App,Low,0,Flutter Firebase
+
+231,Mobile Dev,Intermediate,Taxi Booking App,High,Medium,Flutter Firebase
+232,Mobile Dev,Intermediate,Food Ordering App,High,Medium,React Native Node
+233,Mobile Dev,Intermediate,Social Feed App,High,Medium,Flutter Supabase
+234,Mobile Dev,Intermediate,Health Tracker,Medium,Medium,React Native Firebase
+235,Mobile Dev,Intermediate,Learning App,Medium,Medium,Flutter API
+
+236,Mobile Dev,Advanced,Real-time Gaming App,Very High,High,Unity Multiplayer
+237,Mobile Dev,Advanced,AR App,High,High,Unity ARCore
+238,Mobile Dev,Advanced,AI Mobile Assistant,High,High,TensorFlow Lite
+239,Mobile Dev,Advanced,Video Streaming App,Very High,High,React Native AWS
+240,Mobile Dev,Advanced,Super App Platform,Very High,High,Microservices Kubernetes
+
+241,App Dev,Beginner,Text Editor Tool,Low,0,Electron
+242,App Dev,Beginner,File Organizer,Low,0,Python Tkinter
+243,App Dev,Beginner,Calculator Desktop,Low,0,Python GUI
+244,App Dev,Beginner,Simple Browser,Low,0,Electron
+245,App Dev,Beginner,Music Player,Low,0,Python
+
+246,App Dev,Intermediate,Markdown Editor,Medium,Medium,Electron React
+247,App Dev,Intermediate,Password Manager,Medium,Medium,Electron Node
+248,App Dev,Intermediate,Screen Recorder,Medium,Medium,Electron FFmpeg
+249,App Dev,Intermediate,Chat Client,Medium,Medium,Electron Firebase
+250,App Dev,Intermediate,Task Manager Tool,Medium,Medium,Electron React
+251,Web Dev,Beginner,Portfolio with Animations,Low,0,HTML CSS JS GSAP
+252,Web Dev,Beginner,Simple Blog CMS,Low,0,HTML Netlify CMS
+253,Web Dev,Beginner,Startup Landing UI,Low,0,HTML Tailwind
+254,Web Dev,Beginner,Product Landing Page,Low,0,HTML CSS Vercel
+255,Web Dev,Beginner,Event Registration Page,Low,0,HTML JS Firebase
+
+256,Web Dev,Intermediate,Job Board Platform,Medium,Medium,React Node MongoDB
+257,Web Dev,Intermediate,Subscription Platform,Medium,Medium,Next.js Stripe Firebase
+258,Web Dev,Intermediate,Online Quiz App,Medium,Low,React Node MySQL
+259,Web Dev,Intermediate,Learning Platform,Medium,Medium,React Django PostgreSQL
+260,Web Dev,Intermediate,Booking Website,Medium,Medium,Next.js Supabase
+
+261,Web Dev,Advanced,Global SaaS Platform,Very High,High,Kubernetes Microservices AWS
+262,Web Dev,Advanced,Realtime Trading Dashboard,Very High,High,React Kafka Node Redis
+263,Web Dev,Advanced,AI SaaS Tool,High,High,Next.js FastAPI GPU
+264,Web Dev,Advanced,Search Platform,Very High,High,ElasticSearch Node React
+265,Web Dev,Advanced,Cloud File Storage,Very High,High,AWS S3 Node React
+
+266,AIML,Beginner,Text Sentiment Tool,Low,0,Python Sklearn
+267,AIML,Beginner,Image Classifier Basic,Low,0,TensorFlow Keras
+268,AIML,Beginner,Chatbot Rule-based,Low,0,NLTK Python
+269,AIML,Beginner,Data Predictor,Low,0,Pandas Sklearn
+270,AIML,Beginner,Spam Filter,Low,0,NaiveBayes Python
+
+271,AIML,Intermediate,Document Classifier,Medium,Medium,Spacy Python
+272,AIML,Intermediate,Face Recognition,Medium,Medium,OpenCV
+273,AIML,Intermediate,Stock Price Predictor,Medium,Medium,LSTM TensorFlow
+274,AIML,Intermediate,Recommendation API,Medium,Medium,FastAPI ML
+275,AIML,Intermediate,Voice Recognition App,Medium,Medium,Whisper Python
+
+276,AIML,Advanced,LLM Chat App,High,High,LangChain OpenAI Redis
+277,AIML,Advanced,AI Content Generator,High,High,Transformers PyTorch
+278,AIML,Advanced,Autonomous Agent System,Very High,High,LangGraph Docker
+279,AIML,Advanced,AI Search Engine,Very High,High,Vector DB Pinecone
+280,AIML,Advanced,Multimodal AI App,High,High,PyTorch CUDA
+
+281,Data Analyst,Beginner,Expense Dashboard,Low,0,Excel
+282,Data Analyst,Beginner,Website Report,Low,0,Google Analytics
+283,Data Analyst,Beginner,Customer Overview,Low,0,Excel Charts
+284,Data Analyst,Beginner,Sales Report,Low,0,PowerBI
+285,Data Analyst,Beginner,Survey Insights,Low,0,Google Sheets
+
+286,Data Analyst,Intermediate,Marketing Dashboard,Medium,Medium,Tableau SQL
+287,Data Analyst,Intermediate,Product Analytics,Medium,Medium,Python Pandas
+288,Data Analyst,Intermediate,User Behavior Dashboard,Medium,Medium,SQL PowerBI
+289,Data Analyst,Intermediate,Revenue Insights Tool,Medium,Medium,Python SQL
+290,Data Analyst,Intermediate,Data Cleaning Workflow,Medium,Medium,Python Pandas
+
+291,Data Engineer,Beginner,API Data Loader,Low,0,Python Requests
+292,Data Engineer,Beginner,JSON to CSV Tool,Low,0,Python
+293,Data Engineer,Beginner,Data Formatter,Low,0,Python Pandas
+294,Data Engineer,Beginner,Simple Loader Script,Low,0,Python SQLite
+295,Data Engineer,Beginner,CSV Cleaner,Low,0,Python
+
+296,Data Engineer,Intermediate,ETL Automation Tool,Medium,Medium,Airflow Python
+297,Data Engineer,Intermediate,Data Warehouse Sync,Medium,Medium,dbt Snowflake
+298,Data Engineer,Intermediate,Streaming Logs Pipeline,Medium,Medium,Kafka
+299,Data Engineer,Intermediate,Cloud Data Pipeline,Medium,Medium,AWS Glue
+300,Data Engineer,Intermediate,Batch Processing Tool,Medium,Medium,Spark
+
+301,Data Engineer,Advanced,Real-time Data Lake,Very High,High,AWS S3 Spark Kafka
+302,Data Engineer,Advanced,Streaming Analytics System,Very High,High,Flink Kafka
+303,Data Engineer,Advanced,Distributed ETL System,Very High,High,Hadoop Spark
+304,Data Engineer,Advanced,Event Pipeline System,High,High,Kafka Microservices
+305,Data Engineer,Advanced,Petabyte Processing System,Very High,High,AWS EMR
+
+306,Data Scientist,Beginner,EDA Analysis,Low,0,Pandas Seaborn
+307,Data Scientist,Beginner,Simple Prediction Model,Low,0,Sklearn
+308,Data Scientist,Beginner,Visualization Tool,Low,0,Matplotlib
+309,Data Scientist,Beginner,Clustering Project,Low,0,KMeans
+310,Data Scientist,Beginner,Classification Model,Low,0,Sklearn
+
+311,Data Scientist,Intermediate,Forecasting Model,Medium,Medium,Prophet
+312,Data Scientist,Intermediate,Recommendation Model,Medium,Medium,Python Surprise
+313,Data Scientist,Intermediate,Text Analytics,Medium,Medium,NLP Python
+314,Data Scientist,Intermediate,Image Classifier,Medium,Medium,CNN TensorFlow
+315,Data Scientist,Intermediate,Churn Prediction,Medium,Medium,XGBoost
+
+316,Data Scientist,Advanced,Deep Learning Pipeline,High,High,PyTorch CUDA
+317,Data Scientist,Advanced,Fraud Detection AI,Very High,High,Spark MLlib
+318,Data Scientist,Advanced,Recommendation Engine,High,High,Deep Learning Redis
+319,Data Scientist,Advanced,Time Series AI,High,High,LSTM AWS
+320,Data Scientist,Advanced,Decision AI System,Very High,High,RL Models
+
+321,Mobile Dev,Beginner,Reminder App,Low,0,Flutter
+322,Mobile Dev,Beginner,ToDo Mobile App,Low,0,React Native
+323,Mobile Dev,Beginner,Notes Sync App,Low,0,Flutter Firebase
+324,Mobile Dev,Beginner,Simple Game App,Low,0,Unity
+325,Mobile Dev,Beginner,Flashcard App,Low,0,Flutter
+
+326,Mobile Dev,Intermediate,Taxi App,High,Medium,Flutter Firebase
+327,Mobile Dev,Intermediate,Food Delivery App,High,Medium,React Native Node
+328,Mobile Dev,Intermediate,Social Feed App,High,Medium,Flutter Supabase
+329,Mobile Dev,Intermediate,Health Tracker App,Medium,Medium,React Native Firebase
+330,Mobile Dev,Intermediate,E-learning App,Medium,Medium,Flutter API
+
+331,Mobile Dev,Advanced,Realtime Gaming App,Very High,High,Unity Multiplayer
+332,Mobile Dev,Advanced,AR Mobile App,High,High,Unity ARCore
+333,Mobile Dev,Advanced,AI Assistant App,High,High,TensorFlow Lite
+334,Mobile Dev,Advanced,Streaming Mobile App,Very High,High,React Native AWS
+335,Mobile Dev,Advanced,Super App System,Very High,High,Kubernetes Microservices
+
+336,App Dev,Beginner,Simple Text Editor,Low,0,Electron
+337,App Dev,Beginner,File Organizer Tool,Low,0,Python Tkinter
+338,App Dev,Beginner,Calculator Desktop App,Low,0,Python GUI
+339,App Dev,Beginner,Simple Browser App,Low,0,Electron
+340,App Dev,Beginner,Music Player App,Low,0,Python
+
+341,App Dev,Intermediate,Markdown Editor,Medium,Medium,Electron React
+342,App Dev,Intermediate,Password Manager,Medium,Medium,Electron Node
+343,App Dev,Intermediate,Screen Recorder Tool,Medium,Medium,Electron FFmpeg
+344,App Dev,Intermediate,Desktop Chat App,Medium,Medium,Electron Firebase
+345,App Dev,Intermediate,Task Manager Tool,Medium,Medium,Electron React
+
+346,App Dev,Advanced,Cross-platform IDE Tool,Very High,High,Electron Monaco Docker
+347,App Dev,Advanced,Design Software Tool,High,High,Electron Canvas WebGL
+348,App Dev,Advanced,Video Editing Software,Very High,High,C++ FFmpeg
+349,App Dev,Advanced,Music Production Software,Very High,High,C++ JUCE
+350,App Dev,Advanced,Professional Dev Tool,Very High,High,Electron Node Kubernetes
