@@ -39,7 +39,7 @@ body {
 
 # ---------- HERO ----------
 st.markdown("""
-<h1>🚀 DevStack AI: <span style="color:#38bdf8;">Neon Architect</span></h1>
+<h1> DevStack AI:</h1>
 <p style="color:#94a3b8;">Generate developer project blueprints using AI</p>
 """, unsafe_allow_html=True)
 
@@ -64,7 +64,7 @@ if generate:
     else:
         results = hybrid_recommend(query, domain, level)
 
-        st.markdown("## 🔥 Recommended Blueprints")
+        st.markdown("##  Recommended Blueprints")
 
         cols = st.columns(3)
 
@@ -90,17 +90,6 @@ if generate:
 Matches your idea: <i>{query}</i>
 </div>
 
-<button style="
-margin-top:15px;
-width:100%;
-padding:10px;
-border:none;
-border-radius:10px;
-background:linear-gradient(135deg,#38bdf8,#6366f1);
-color:white;
-font-weight:600;">
-View Blueprint →
-</button>
 
 </div>
 """, unsafe_allow_html=True)
