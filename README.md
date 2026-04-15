@@ -4,7 +4,7 @@
 
 DevStack AI is a **hybrid recommendation system** designed to help developers choose the right project ideas and tech stacks based on their interests, skill level, and domain.
 
-Instead of randomly picking projects, this system intelligently suggests **personalized project blueprints** using a combination of:
+Instead of randomly using any techstack for projects, this system intelligently suggests **personalized project blueprints** using a combination of:
 
 * 📊 Content-based filtering (TF-IDF + cosine similarity)
 * ⚙️ Rule-based filtering (domain, level, keyword matching)
@@ -17,11 +17,10 @@ It’s built as a **fast, interactive web app using Streamlit**, making it simpl
 
 Many developers—especially beginners—struggle with:
 
-* ❓ Choosing the right project
 * ❓ Selecting an appropriate tech stack
 * ❓ Matching projects with their skill level
 
-DevStack AI solves this by acting like a **smart assistant** that recommends structured project ideas instantly.
+DevStack AI solves this by acting like a **smart assistant** that recommends structured techstack ideas instantly.
 
 ---
 
@@ -62,9 +61,9 @@ These are combined into a single feature for analysis.
 
 Applies logical scoring:
 
-* ✅ Domain match
-* ✅ Level match
-* ✅ Keyword match
+*  Domain match
+*  Level match
+*  Keyword match
 
 ---
 
@@ -150,15 +149,6 @@ Output:
 
 ---
 
-## 🚀 Future Improvements
-
-* 🤖 LLM-based explanations (GPT integration)
-* 📊 Confidence score visualization
-* 🧠 Semantic embeddings (BERT / Sentence Transformers)
-* 👥 Collaborative filtering (user-based recommendations)
-
----
-
 ## 💡 What I Learned
 
 * How recommendation systems work
@@ -166,18 +156,11 @@ Output:
 * Feature engineering using text data
 * Building interactive apps with Streamlit
 
----
-
-## 🎯 Interview Summary
-
-> Built a hybrid recommendation system combining TF-IDF based content filtering with rule-based scoring to suggest developer project ideas and tech stacks dynamically.
-
----
 
 ## 👩‍💻 Author
 
-**Divya Kansara**
+**Divya Kansara**  **Resham Patel**
 
 ---
 
-⭐ If you like this project, consider giving it a star!
+
