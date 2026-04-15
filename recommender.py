@@ -12,15 +12,15 @@ def clean_text(text):
     text = re.sub(r'[^a-zA-Z ]', '', text)
     return text
 
-# Weighted features (IMPORTANT)
+# Create combined feature
 df["combined"] = (
-    df["domain"] * 3 + " " +
-    df["project_type"] * 3 + " " +
-    df["level"] * 2 + " " +
+    df["domain"] + " " +
+    df["project_type"] + " " +
+    df["level"] + " " +
     df["recommended_stack"]
 ).apply(clean_text)
 
-# Rule scoring
+# Rule-based scoring
 def rule_score(row, user_input, domain, level):
     score = 0
     text = user_input.lower()
@@ -38,7 +38,7 @@ def rule_score(row, user_input, domain, level):
 
 
 # Hybrid recommender
-def hybrid_recommend(user_input, domain="Any", level="Any", top_n=3):
+def hybrid_recommend(user_input, domain="Any", level="Any", top_n=5):
 
     filtered_df = df.copy()
 
@@ -49,21 +49,22 @@ def hybrid_recommend(user_input, domain="Any", level="Any", top_n=3):
         filtered_df = filtered_df[filtered_df["level"] == level]
 
     if filtered_df.empty:
-        return df.sample(top_n)
+        filtered_df = df.sample(top_n)
+
+    filtered_df = filtered_df.reset_index(drop=True)
 
     vectorizer = TfidfVectorizer(stop_words="english")
     matrix = vectorizer.fit_transform(filtered_df["combined"])
 
     user_vec = vectorizer.transform([clean_text(user_input)])
     sim_scores = cosine_similarity(user_vec, matrix).flatten()
-    
-    filtered_df = filtered_df.reset_index(drop=True)
+
     results = []
-    for idx, (i, row) in enumerate(filtered_df.iterrows()):
+
+    for idx, row in filtered_df.iterrows():
         r_score = rule_score(row, user_input, domain, level)
-        # use idx instead of i
         final_score = 0.7 * sim_scores[idx] + 0.3 * r_score
-        results.append((i, final_score))
+        results.append((idx, final_score))
 
     results = sorted(results, key=lambda x: x[1], reverse=True)[:top_n]
 
